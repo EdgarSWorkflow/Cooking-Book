@@ -1,0 +1,36 @@
+body{
+     background-color: rgb(59, 59, 59);
+     font-family: Helvetica Neue, Helvetica, Arial, Sans-Serif;
+     color: white;
+     margin: 0px;
+     padding: 0px;
+}
+header{
+     background-color: black;
+     padding: 20px;
+}
+section{
+     background-color: white;
+     color: black;
+     padding: 20px;
+     display: flex;
+     flex-direction: row;
+}
+div{
+     background-color: blue;
+     margin: auto;
+     width: 100px;
+}
+ul{
+     margin: 0px;
+     padding: 0px;
+     list-style-type: none;
+}
+li{
+     display: inline-block;
+     margin-right: 20px;
+}
+footer{
+     background-color: black;
+     padding: 10px 20px;
+}
