@@ -1,13 +1,37 @@
 body{
      background-color: rgb(59, 59, 59);
+     color: rgba(1, 1, 1, 0.754);
      font-family: Helvetica Neue, Helvetica, Arial, Sans-Serif;
-     color: white;
      margin: 0px;
      padding: 0px;
 }
 header{
-     background-color: black;
      padding: 20px;
+     height: 400px;
+     background-color: rgba(255, 255, 255, 0.533);
+     background-image: url(/img/header-img.jpg);
+     background-size: 100%;
+     background-repeat: no-repeat;
+     background-position: center;
+     text-align: center;
+}
+header a {
+     color: rgba(255, 255, 255, 0.78);
+     text-decoration: none;
+     text-transform: uppercase;
+     margin-top: 40px;
+}
+header .logo a {
+     background-color: rgba(255, 0, 0, 0);
+     background-image: url(/img/logo.png);
+     background-size: 200px;
+     background-repeat: no-repeat;
+     display: inline-block;
+     text-indent: -999999px;
+     position: relative;
+     top: -78px;
+     width: 200px;
+     height: 200px;
 }
 section{
      background-color: white;
@@ -39,7 +63,4 @@ a{
 }
 a:hover{
      text-decoration: underline;
-}
-a:visited{
-      color: white;
 }
