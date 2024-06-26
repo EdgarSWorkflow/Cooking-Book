@@ -43,10 +43,27 @@ img {
 .featured-container {
      background-color: rgb(255, 255, 255);
      max-width: auto;
-     margin: 0px -20px;
      padding: 0px 15px;
      display: flex;
      justify-content: space-around;
+}
+
+/* TEXT UTILITY */
+
+.text-align {
+     text-align: center;
+}
+
+.text-lrg {
+     font-size: large;
+}
+
+.text-xl {
+     font-size: x-large;
+}
+
+.text-bold {
+     font-weight: bold;
 }
 /* NAVBAR */
 
@@ -85,7 +102,7 @@ img {
 
 /* RESPONSIVE RULES */
 
-/* SECTION 1 */
+/* FEATURED DISHES */
 
 .featured {
      display: flex;
@@ -133,6 +150,53 @@ img {
 .section-1 figure img{
      border-radius: 20px;
      width: 200px;
+}
+
+/* LITTLE ABOUT US */
+
+.little-about-us {
+     background-color: #abc4ff;
+     padding: 25px;
+}
+
+.little-about-us-header {
+     background-color: white;
+}
+
+.little-about-us .little-about-us-img {
+     display: flex;
+     justify-content: space-between;
+}
+
+.little-about-us .little-about-us-img img {
+     max-width: 260px;
+     border: white solid 5px;
+     border-radius: 20px;     
+}
+
+.little-about-us-text {
+     margin: auto 0px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+}
+
+.little-about-us .little-about-us-text p:first-child {
+     margin: auto 30px;
+     border: white solid 5px;
+     border-radius: 20px;
+     width: 400px;
+     background-color: white;
+     color: black;
+     margin-bottom: 10px;
+}
+
+.little-about-us .little-about-us-text p:last-child {
+     margin: auto 30px;
+     border: white solid 5px;
+     border-radius: 20px;
+     background-color: white;
+     color: black;
 }
 
  /* FOOTER */
