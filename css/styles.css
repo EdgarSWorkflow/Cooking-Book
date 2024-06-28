@@ -228,4 +228,8 @@ footer{
      text-align: center;
 }
 
+/* RECIPES (spacific) */
 
+.recipe-specific-header {
+     background-color: white;
+}
