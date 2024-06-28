@@ -78,6 +78,20 @@ img {
      align-items: center;
 }
 
+.navbar .logo {
+     width: 100px;
+}
+
+.navbar .search {
+     background-color: #ccdbfd;
+     border-width: 0px;
+     margin-right: 138px;
+     padding-right: 90px;
+     text-decoration: none;
+     box-shadow: 1px 1px 6px 1px rgba(73, 60, 60, 0.365);
+     font-size: large;
+}
+
 .navbar .main-menu ul {
      display: flex;
 }
@@ -96,9 +110,6 @@ img {
      color: white;
 }
 
-.navbar .logo {
-     width: 100px;
-}
 
 /* RESPONSIVE RULES */
 
